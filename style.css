@@ -1,0 +1,325 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background-color: bisque;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+ul li a {
+  font-weight: 700;
+  color: #333333;
+  font-size: 12px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav ul li a {
+  padding-bottom: 7px;
+  border-bottom: none;
+}
+
+nav ul li a:hover {
+  transition: 1s;
+  border-bottom: 2px solid red;
+}
+
+.showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 216px;
+}
+
+.showcase-left p {
+  margin-top: 47px;
+  margin-bottom: 47px;
+  font-weight: 400;
+  font-size: 16px;
+  width: 464px;
+}
+
+.showcase-left button {
+  border-radius: 100px;
+  padding: 16px 24px;
+  background-color: #0a775f;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+}
+
+.showcase-left h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 75px;
+}
+
+.image2 {
+  transform: translateY(80px);
+}
+
+.image1 {
+  position: absolute;
+  top: 45px;
+  left: 690px;
+  z-index: 1;
+}
+
+.image1:hover {
+  animation-name: aylana;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+.h2 {
+  text-align: center;
+  margin-top: 98px;
+}
+
+.div1-ota {
+  display: flex;
+  align-items: center;
+  gap: 121px;
+  margin-top: 42px;
+}
+
+.img1 {
+  width: 465px;
+  height: 375px;
+}
+
+.big-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h4-1 {
+  width: 170px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 10px;
+}
+
+.p1 {
+  width: 468px;
+  height: 68px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.h4-2 {
+  width: 338px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+/* footer {
+  background-color: #f3d7b7;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+} */
+
+/* .big-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 254px;
+  margin-top: 64px 54px 72px 42px;
+} */
+
+.div {
+  gap: 40px;
+}
+
+.header {
+  width: 1540px;
+  height: 620px;
+}
+
+/* .img {
+  width: 235px;
+  height: 24px;
+  margin-top: 49px;
+  font-display: flex;
+  gap: 40px;
+} */
+
+/* .img11 {
+  width: 49px;
+  height: 19px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+} */
+
+/* .big-img{
+  display: flex;
+  gap: 40px;
+  width: 25px;
+  height: 25px;
+  margin-top: 49px;
+  margin-left: 300px;
+} */
+
+.div {
+  display: flex;
+}
+
+@keyframes aylana {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+@keyframes yaqinlashish {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.commitment {
+  display: flex;
+  align-items: center;
+  gap: 318px;
+  margin-top: 160px;
+  margin-bottom: 216px;
+}
+
+.commitment-left {
+  width: 371px;
+  height: 364px;
+}
+
+.h5 {
+  height: 56px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.pp1 {
+  width: 646px;
+  height: 207px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 64px;
+}
+
+.commitment-left img {
+  margin-top: 100px;
+}
+
+.sec {
+  margin-bottom: 114px;
+  background-color: #c99b67;
+  margin-top: 216px;
+  padding: 109px 55px;
+  color: white;
+}
+
+footer {
+  background-color: blanchedalmond;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ders {
+  display: flex;
+}
+
+.ders ul {
+  display: flex;
+  gap: 50px;
+  margin-top: 49px;
+  margin-left: 300px;
+}
+
+.logo {
+  margin-top: 49px;
+  font-display: flex;
+  gap: 40px;
+}
+
+.wers {
+  display: flex;
+  gap: 40px;
+  width: 25px;
+  height: 25px;
+  margin-top: 49px;
+  margin-left: 300px;
+}
+
+
+.wers i{
+  font-size: 30px;
+}
+
+.footer-main{
+  margin-top: 0;
+}
+
+.bg-color{
+  background-color: #C99B67;
+  margin-top: 216px;
+  padding: 109px 55px;
+  color: white;
+}
+
+
+.tepa{
+  transform: translateY(-240px);
+}
+
+.p35{
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 28px;
+}
+.m5{
+  width: 397px;
+  height: 118px;
+  font-weight: 700;
+  font-size: 50px;
+}
